@@ -3,11 +3,14 @@
 #include "esp_camera.h"
 
 // Replace these with your network credentials
-const char* ssid = "MTN_4G_84578B";
-const char* password = "jinglebe1!";
+// const char* ssid = "MTN_4G_84578B";
+// const char* password = "jinglebe1!";
+
+const char* ssid = "Mojo";
+const char* password = "brilliancy";
 
 // Replace with your server's address
-const char* serverName = "http://192.168.0.2:5000/upload";
+const char* serverName = "https://espcamserver.onrender.com/upload";
 
 // Pin definition for CAMERA_MODEL_AI_THINKER
 #define PWDN_GPIO_NUM 32
